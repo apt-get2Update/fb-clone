@@ -1,157 +1,142 @@
-// Import Custom Variables
-@import "./utils/variables";
-
-@import "./vendors/bootstrap";
-
-@import "./vendors/fontawesome";
-
-// Import Custom SCSS
-@import "./utils/mixins";
-@import "global.scss";
-@import "./utils/utilities";
-@import "./layout/navbar";
-@import "./components/cards";
-@import "./layout/footer";
-
 body{
     margin: 0;
     padding:0 ;
-  }
-  .container{
+}
+.container{
     width: 100%;
-  }
-  .header{
+}
+.header{
     width: 100%;
     height:60px;
     background-color:#4267B2;
     font-family: sans-serif;
-  }
-  .hmt1{
+}
+.hmt1{
     width:10%;
     float: left;
     border: 1px solid #4267B2;
-  }
-  .logo{
+}
+.logo{
     width:10%;
     float: left;
     font-size:28px;
     font-weight: bold;
     margin-top:16px;
     color: white;
-  }
-  .search{
+}
+.search{
     width:30%;
     float: left;
     
-  }
-  
-  .pm{
+}
+
+.pm{
     padding:6px 80px;
     margin-top: 15px;
     
-  }
-  .icon{
+}
+.icon{
     width:40%;
     float: left;
     margin-top: 14px;
-  }
-  ul{
+}
+ul{
     padding: 0;
     margin: 0;
     overflow: hidden;
-  }
-  li{
+}
+li{
     list-style-type: none; 
     float: left;
     
-  }
-  li a{
+}
+li a{
     text-decoration: none;
     font-size:24px;
     padding:7px 13px;
     color: white;
-  
+
     font-weight: bold;
-  }
-  li a:hover{
+}
+li a:hover{
     color:black;
-  }
-  li a i{
+}
+li a i{
     color: black;
-  }
-  
-  li:last-child{
+}
+
+li:last-child{
     background-color: rgb(128, 122, 122);
     border: 1px solid white;     
-  }
-  .hmt2{
+}
+.hmt2{
     width:10%;
     float: left;
-  }
-  
-  .container1{
+}
+
+.container1{
     width:100%;
     height:575px;
     background-color:#f0f2f5;
-  }
-  .mtbox1{
+}
+.mtbox1{
     width:10%;
     height: auto;
     float:left;
     background-color:#f0f2f5 ;
     border:1px solid #f0f2f5;
-  }
-  .main{
+}
+.main{
     width:80%;
     height:auto;
     
     float:left;
-  }
-  
-  .sidemenu{
+}
+
+.sidemenu{
     width:25%;
     height:90vh;
     float: left;
     background-color: #f0f2f5;
-  
-  }
-  
-  .profileimg img{
+
+}
+
+.profileimg img{
     
     border: 4px solid rgb(211, 203, 203);
-  }
-  .profiletext{
+}
+.profiletext{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     font-weight: bold;
     padding: 5px;
     color: rgb(7, 7, 7);
-  
-  }
-  
-  .prlmenu ul{
+ 
+}
+
+.prlmenu ul{
     padding: 0;
     margin: 0;
-  }
-  .prlmenu li{
+}
+.prlmenu li{
     float: none;
     padding:4px;
-  }
-  .prlmenu li a{
+}
+.prlmenu li a{
     color: black;
     font-family: sans-serif;
     font-size:15px;
     font-weight:10px;
-  }
-  .prlmenu li:first-child{
+}
+.prlmenu li:first-child{
     background-color: #c2c5ca;
     border-left:4px solid rgb(17, 114, 224);
-  }
-  .prlmenu li:first-child:active{
+}
+.prlmenu li:first-child:active{
     background-color: rgb(188, 189, 188);
     
-  }
-  .prlmenu button{
+}
+.prlmenu button{
     padding: 6px 18px;
     margin-left:13px;
     color:white;
@@ -159,42 +144,42 @@ body{
     background-color: rgb(33, 221, 16);
     border: none;
     border-radius:8%;
-  }
-  .pagebox{
+}
+.pagebox{
     width:75%;
-    height:575;
+    height:575px;
     float: left;
     background-color: #f0f2f5;
     overflow-y:scroll;
-  }
-  .prlpage{
+}
+.prlpage{
     border:2px solid rgb(211, 203, 203);
-  }
-  .likecontactus{
+}
+.likecontactus{
     width:100%;
     height:70px;
     background-color: white;
-  }
-  .like{
+}
+.like{
     width:50%;
     float: left;
-  
-  }
-  .like button{
+
+}
+.like button{
     margin-top: 20px;
     margin-left:5px;    
-  }
-  .like button i{
+}
+.like button i{
     padding:6px 10px;
-  }
-  .like button:first-child{
+}
+.like button:first-child{
     color: blue;
-  }
-  .contactus{
+}
+.contactus{
     width:50%;
     float:left;
-  }
-  .contactus input{
+}
+.contactus input{
     padding:8px 120px;
     margin-left:30px;
     margin-top: 20px;
@@ -204,49 +189,51 @@ body{
     font-weight: bold;
     border-radius:5%;
     font-family: sans-serif;
-  }
-  .user{
+}
+.user{
     width:100%;
     height:550px;
     background-color: white;
-  }
-  .userprl{
+}
+.userprl{
     width: 100%;
     height:70px;
     border-bottom: 1px solid black;
-  }
-  .userprlimg{
+}
+.userprlimg{
     width:10%;
     float:left;
-  }
-  .userpostimg p{
+}
+.userpostimg p{
     margin-left: 10px;
     font-family: serif;
     font-weight: bold;
-  }
-  .userprlimg img{
+}
+.userprlimg img{
    border:2px solid rgb(172, 167, 167);
    margin-left:8px;
    margin-top: 8px;
-  }
-  .username{
-    margin-top:10px;
-    font-family: sans-serif;
+}
+.username{
     width: 20%;
     float: left;
+}
+.username{
+    margin-top:10px;
+    font-family: sans-serif;
     
-  }    
-  .userlike{
+}    
+.userlike{
     margin-left:5px;
     margin-top: 20px;
     
     
-  }
-  .userlike button i{ 
+}
+.userlike button i{ 
     padding:6px 10px;
-  
-  }
-  .userlike button:first-child{
+
+}
+.userlike button:first-child{
     color: royalblue;
-  }
-  
+}
+
