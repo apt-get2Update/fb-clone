@@ -276,6 +276,10 @@ body{
     margin-top:16px;
     color: white;
 }
+:is(.logo,a){
+    text-decoration: none;
+    color:var(--white);
+}
 .search{
     width:30%;
     float: left;
@@ -328,7 +332,7 @@ li:last-child{
 
 .container1{
     width:100%;
-    height:575px;
+    height:615px;
     background-color:var(--lightgrey);
 }
 .mtbox1{
@@ -347,7 +351,7 @@ li:last-child{
 
 .sidemenu{
     width:25%;
-    height:90vh;
+    height:80vh;
     float: left;
     background-color: #f0f2f5;
 
@@ -541,7 +545,12 @@ about page css
     margin-left:130px;
 }
 .aboutbtn span button{
+    padding: 7px 10px;
     color:var(--black);
+    background-color:var(--lightgrey);
+}
+.aboutbtn span button :hover{
+    padding: 4px;
 }
 
 .aboutpart2{
@@ -581,4 +590,64 @@ about page css
 .intro img{
     margin-left: 30px;
     border:3px solid var(--lightgrey);
+    
+}
+
+.aboutphotos{
+    width:95%;
+    margin-left: 15px;
+}
+.aboutphotos img:hover{
+    padding: 1px;
+}
+#aboutphotos{
+    width: 90%;
+    height:390px;
+    margin-left:16px;
+    background-color: var(--white);
+    border-radius:3%;
+}
+#aboutphotos p{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+#abimglink a{
+    color:var(--blue);
+    font-weight:bold;
+    font-family: sans-serif;
+    padding: 5px;
+}
+#abimglink a:hover{
+    background-color:#CCD0D5;
+    padding: 5px;
+}
+#abimglink{
+    margin-left:30%;
+}
+.aboutfrdlist{
+    width: 95%;
+    height: 420px;
+    background-color:var(--white);
+    font-weight: bolder;
+}
+.aboutfrdimg{
+    width:100%;
+}
+.abfrdimg img{
+    border:
+}
+.abimgfloat{
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+.frdname a{
+    color: black;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:small;
+}
+.frdname a:hover{
+    padding: 4px;
 }
