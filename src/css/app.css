@@ -257,80 +257,88 @@ body{
 .container{
     width: 100%;
 }
-.header{
+
+.header-nav{
     width: 100%;
-    height:60px;
-    background-color: var(--blue);
+    height: 50px;
+    background-color:var(--white);
+   
+}
+.head-nav1{
+    width:25%;
+    height:50px;
+    float: left;
+}
+.fb-logo{
+  width:25%;  
+  float: left;
+}
+.fb-logo img{ 
+  padding-left:15px;
+  padding-top:5px;
+  
+}
+.header-search{
+    width: 75%;
+    float:left;
+    
+}
+
+.header-radius{
+    width:90%;
+    height:35px;
+    margin-top: 6px;
+    padding-left:1px;
+    
+ 
+    
+}
+.search-icon{
+    width:15%;
+    height: 35px;
+    background-color:var(--lightgrey);
+    float: left;
+    border-bottom-left-radius:50%;
+    border-top-left-radius:50%;
+}
+.search-icon i{
+    color:grey;
+    font-size:25px;
+    margin-top:6px;
+    padding-left:8px;
+}
+.search-input{
+    width:85%;
+    float:left;
+}
+.search-input input{
+    height:35px;
+    width:220px;
+    padding-left:9px;
+    border: none;
+    background-color:var(--lightgrey);
+    border-bottom-right-radius:25px;
+    border-top-right-radius:25px;
     font-family: sans-serif;
+    font-size: 14px;
 }
-.hmt1{
-    width:10%;
+.head-nav2{
+    width:50%;
+    height: 50px;
+    background-color: greenyellow;
     float: left;
-    border: 1px solid #4267B2;
-}
-.logo{
-    width:10%;
-    float: left;
-    font-size:28px;
-    font-weight: bold;
-    margin-top:16px;
-    color: white;
-}
-:is(.logo,a){
-    text-decoration: none;
-    color:var(--white);
-}
-.search{
-    width:30%;
-    float: left;
-    
-}
 
-.pm{
-    padding:6px 80px;
-    margin-top: 15px;
-    
 }
-.icon{
-    width:40%;
-    float: left;
-    margin-top: 14px;
-}
-ul{
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-}
-li{
-    list-style-type: none; 
-    float: left;
-    
-}
-li a{
-    text-decoration: none;
-    font-size:24px;
-    padding:7px 13px;
-    color: white;
-
-    font-weight: bold;
-}
-li a:hover{
-    color:black;
-}
-li a i{
-    color: black;
-}
-
-li:last-child{
-    background-color: rgb(128, 122, 122);
-    border: 1px solid white;     
-}
-.hmt2{
-    width:10%;
+.head-nav3{
+    width:25%;
+    height: 50px;
+    background-color:red;
     float: left;
 }
 
-.container1{
+
+
+ .container1{
     width:100%;
     height:615px;
     background-color:var(--lightgrey);
@@ -634,9 +642,7 @@ about page css
 .aboutfrdimg{
     width:100%;
 }
-.abfrdimg img{
-    border:
-}
+
 .abimgfloat{
     width: 30%;
     float: left;
