@@ -332,11 +332,54 @@ body{
 .head-nav3{
     width:25%;
     height: 50px;
-    background-color:red;
+    float: left;
+}
+.right-menu{
+    width: 100%;
+   
+}
+.nav-img{
+    width: 20%;
+    float: left;
+}
+.nav-icons{
+    width:80%;
     float: left;
 }
 
-
+.nav-icons ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+.nav-icons ul li{
+    
+    display: inline-block;
+    max-width:0;
+    flex:1;
+    font-size:25px;
+}
+.nav-icons ul li a{
+    text-decoration: none;
+    color: var(--black);
+}
+.nav-icons ul li a:hover{
+    background-color:grey;
+}
+.icon-bg{
+    margin-top:7px;
+    width: 45px;
+    height: 37px;
+    background-color:var(--lightgrey);
+    border-radius:50%;
+}
+.icon-bg li{
+    padding-left:10px;
+    padding-top: 4px;
+}
 
  .container1{
     width:100%;
