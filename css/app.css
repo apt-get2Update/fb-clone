@@ -328,7 +328,33 @@ body{
     float: left;
 
 }
+.nav-center-ic{
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-center-flex{
+    padding: 5px;
+    max-width: 70px;
+    padding-top:8px;
+    flex:1;
+}
+.nav-center-flex img{
+    padding-left:23px;
+}
+.nav-center-flex:hover{
+    background-color:var(--lightgrey);
+    border-radius:20%;
+}
+.nav-c-icon4 img{
+    border:1px solid var(--black);
+    border-radius:50%;
+    padding:3px;
+    margin-left: 10px;
 
+}
 .head-nav3{
     width:25%;
     height: 50px;
