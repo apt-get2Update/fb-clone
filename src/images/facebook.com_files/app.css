@@ -626,7 +626,7 @@ about page css
     width:100%;
     height:500px;
     background-image:url(../images/pp.jpeg);
-    background-size:100% 4  00px;
+    background-size:100% 500px;
     background-repeat:no-repeat;
     border-bottom:16px solid var(--lightgrey);
 }
@@ -657,7 +657,7 @@ about page css
     border-radius:5%;
 }
 .aboutbtn span{
-    padding-left: 70px;
+    margin-left:130px;
 }
 .aboutbtn span button{
     padding: 7px 10px;
@@ -718,7 +718,7 @@ about page css
 #aboutphotos{
     width: 90%;
     height:390px;
-    margin-left:19px;
+    margin-left:16px;
     background-color: var(--white);
     border-radius:3%;
 }
@@ -732,36 +732,35 @@ about page css
     font-weight:bold;
     font-family: sans-serif;
     padding: 5px;
-    text-decoration: wavy;
+    -webkit-text-decoration: wavy;
+            text-decoration: wavy;
 }
 #abimglink a:hover{
     background-color:#CCD0D5;
     padding: 5px;
 }
 #abfrdtxt{
-    padding-left: 12px;
+    padding-left: 22px;
 }
 #abimglink{
     padding-left:40px;
 }
 .aboutfrdlist{
-    width: 90%;
-    height: 448px;
+    width: 95%;
+    height:auto ;
     background-color:var(--white);
     font-weight: bolder;
-    border-radius: 4%;
-    margin-left: 19px;
 }
 .aboutfrdimg{
+    width:100%;
+    height: 400px;
     padding-left: 9px;
-   
 }
 
 .abimgfloat{
     width: 30%;
     float: left;
-    border:2px solid var(--white);
-    padding-left: 3px;
+    
 }
 .frdname a{
     color: black;
