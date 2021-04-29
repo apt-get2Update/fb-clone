@@ -1,198 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  ${require('./layouts/_head.html')}
-</head>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mobileshop</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  </head>
 <body>
-
-  <div class="container">
-    ${require('./layouts/_nav.html')}
-
-    <div class="container1"> 
-        <div class="mtbox1"></div>
-        <div class="main">
-            <div class="sidemenu">
-                <div class="profileimg">
-                    <img src="/images/pp.jpeg" alt="profileimg" width="200px" height="150px">
-                </div>
-                <div class="profiletext">
-                    Tajul@123
-                    
-                </div>
-                <div class="prlmenu">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/photos">Photos</a></li>
-                        <li><a href="#">Email signup</a></li>
-                        <li><a href="#">Notes</a></li>
-                        <li><a href="#">Reviews</a></li>
-                        <li><a href="#">Video</a></li>
-                        <li><a href="#">Likes</a></li>
-                        <li><a href="#">Posts</a></li>
-                        <br>
-                        <button>Create a page</button>
-                    </ul>
-                </div>
-
+ 
+    <header>
+        <div class="logo">
+           <a href="#"><img src="images/logo.png" alt="logo" width="350px" height="80px"></a>
+        </div>
+        <nav>
+            <div class="nav-box">
+                
+                <ul>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Brand</a></li>
+                    <li><a href="#">Specials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
             </div>
-            <div class="pagebox">
-              <div class="prlpage">
-                  <img src="/images/pp.jpeg" alt="profile" width="100%" height="400px">
+        </nav>
+    </header>
+    <main>
+
+        <div class="carousel"
+          data-flickity='{ "freeScroll": true }'>
+          <div class="carousel-cell bg-slide-1">
+                  <div class="bg-slide-1-text">
+                    <h1>All New Phones <br>up to 25% flate sale</h1>
+
+            <p>It is a long established fact that a reader will be distracted by the readable content <br>
+              of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+                 <a href="#"  class="slide-btn">BUY NOW</a>
+                
+                <ul class="slide-icon-pt">
+                  <li class="fb-icon icon-size"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="insta-icon icon-size"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li class="whatsapp-icon icon-size"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                </ul>
+                  </div>
+                
               </div>
-              <div class="likecontactus">
-              <div class="like">
-                    <button><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
-                    <button><i class="fa fa-commenting-o" aria-hidden="true"></i>message</button>
-                    <button>...more<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
-              </div>
-              <div class="contactus">
-                      <input type="submit" value="Contact Us">
-              </div>
-              </div>
-              <br>
-              <div class="user">
-              <div class="userprl">
-                <div class="userprlimg">
-                    <img src="/images/pp.jpeg" alt="profile" width="50px" height="50px">
-                </div>
-                <div class="username">
-                    <b>Tajul@123</b> <br>
-                       23 hrs.
-                </div>
-              </div>
-                <div class="userpostimg">
-                    <p>#wanderluster #likephoto #travel #dreamworld <br>
-                        #tamilnadu #kerala  
-                    </p>    
-                    <br>
-                    <img src="/images/page1.jpg" alt="post" width="100%" height="300px">
-                    <hr>
-                    <div class="userlike">
-                    <button><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
-                    <button><i class="fa fa-commenting-o" aria-hidden="true"></i>message</button>
-                    <button><i class="fa fa-share-alt-square" aria-hidden="true"></i>share</i></button>
-                    </div>
-                </div>
-             </div>
-
-             <br>
-
-             <div class="user">
-                <div class="userprl">
-                  <div class="userprlimg">
-                      <img src="/images/pp.jpeg" alt="profile" width="50px" height="50px">
-                  </div>
-                  <div class="username">
-                      <b>Tajul@123</b> <br>
-                         1 day.
-                  </div>
-                </div>
-                  <div class="userpostimg">
-                      <p>#wanderluster #likephoto #travel #dreamworld <br>
-                          #tamilnadu #kerala  
-                      </p>    
-                      <br>
-                      <img src="/images/8.jpeg" alt="post" width="100%" height="300px">
-                      <hr>
-                      <div class="userlike">
-                      <button><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
-                      <button><i class="fa fa-commenting-o" aria-hidden="true"></i>message</button>
-                      <button><i class="fa fa-share-alt-square" aria-hidden="true"></i>share</i></button>
-                      </div>
-                  </div>
-               </div>
-               
-               <br>
-
-               <div class="user">
-                <div class="userprl">
-                  <div class="userprlimg">
-                      <img src="/images/pp.jpeg" alt="profile" width="50px" height="50px">
-                  </div>
-                  <div class="username">
-                      <b>Tajul@123</b> <br>
-                         2 day.
-                  </div>
-                </div>
-                  <div class="userpostimg">
-                      <p>#wanderluster #likephoto #travel #dreamworld <br>
-                          #tamilnadu #kerala  
-                      </p>    
-                      <br>
-                      <img src="/images/9.jpeg" alt="post" width="100%" height="300px">
-                      <hr>
-                      <div class="userlike">
-                      <button><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
-                      <button><i class="fa fa-commenting-o" aria-hidden="true"></i>message</button>
-                      <button><i class="fa fa-share-alt-square" aria-hidden="true"></i>share</i></button>
-                      </div>
-                  </div>
-               </div> 
-               
-                <br>
-
-                <div class="user">
-                    <div class="userprl">
-                      <div class="userprlimg">
-                          <img src="/images/pp.jpeg" alt="profile" width="50px" height="50px">
-                      </div>
-                      <div class="username">
-                          <b>Tajul@123</b> <br>
-                             3 day.
-                      </div>
-                    </div>
-                      <div class="userpostimg">
-                          <p>#wanderluster #likephoto #travel #dreamworld <br>
-                              #tamilnadu #kerala  
-                          </p>    
-                          <br>
-                          <img src="/images/6.jpeg" alt="post" width="100%" height="300px">
-                          <hr>
-                          <div class="userlike">
-                          <button><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
-                          <button><i class="fa fa-commenting-o" aria-hidden="true"></i>message</button>
-                          <button><i class="fa fa-share-alt-square" aria-hidden="true"></i>share</i></button>
-                          </div>
-                      </div>
-                   </div>
-                    <br>
-
-                <div class="user">
-                    <div class="userprl">
-                      <div class="userprlimg">
-                          <img src="/images/pp.jpeg" alt="profile" width="50px" height="50px">
-                      </div>
-                      <div class="username">
-                          <b>Tajul@123</b> <br>
-                             4 day.
-                      </div>
-                    </div>
-                      <div class="userpostimg">
-                          <p>#wanderluster #likephoto #travel #dreamworld <br>
-                              #tamilnadu #kerala  
-                          </p>    
-                          <br>
-                          <img src="/images/ferari.jpeg" alt="post" width="100%" height="300px">
-                          <hr>
-                          <div class="userlike">
-                          <button><i class="fa fa-thumbs-o-up" aria-hidden="true"></i>like<i class="fa fa-sort-desc" aria-hidden="true"></i></button>
-                          <button><i class="fa fa-commenting-o" aria-hidden="true"></i>message</button>
-                          <button><i class="fa fa-share-alt-square" aria-hidden="true"></i>share</i></button>
-                          </div>
-                      </div>
-                   </div>
-
+          <div class="carousel-cell bg-slide-2">
+            <h1>soon</h1>
+          </div>
+          <div class="carousel-cell bg-slide-3">
+            <h1>soon</h1>
+          </div>
+         
         </div>
         
-    </div>
-    
-</div>
-    ${require('./layouts/_scripts.html')}
-    
-
+    </main>
+    <footer class="footer-bg">
+         <h1>footer</h1>
+    </footer>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
 </body>
-
 </html>
