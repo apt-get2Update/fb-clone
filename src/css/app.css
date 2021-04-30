@@ -69,14 +69,14 @@ main{
 .bg-slide-2{
     width:100%;
     height:600px;
-    background-image: url(../images/bg-slide-2.jpeg);
+    background-image: url(../images/s2.jpg);
     background-repeat: no-repeat;
     background-size:100% 80%;
 }
 .bg-slide-3{
     width:100%;
     height:600px;
-    background-image: url(../images/bg-slide-3.jpeg);
+    background-image: url(../images/s5.jpg);
     background-repeat: no-repeat;
     background-size:100% 80%;
 }
@@ -123,4 +123,12 @@ main{
 .icon-size{
     font-size: 30px;
 
+}
+.bg-slide2-text{
+    padding-left:349px;
+    padding-top: 229px;
+}
+.bg-slide3-text{
+    padding-left:932px;
+    padding-top: 284px;
 }
