@@ -5,11 +5,16 @@ body{
 }
 header{
     width:100%;
-    height: 84px;
+    height:70px;
+    /*
     background-image: url(../images/navred.png);
     background-repeat: no-repeat;
     background-size:100% 100%;   
+    */
+    background-color: rgb(54, 169, 223);
     border-bottom:1px solid white;
+    position:fixed;
+    z-index: 1;
 }
 .logo{
     width: 20%;
@@ -23,7 +28,7 @@ nav{
   
 }
 .nav-box{
-    padding-top:15px;
+    padding-top:10px;
     margin-left:200px;
 }
 ul{
@@ -53,13 +58,15 @@ ul li a:hover{
     color: rgb(235, 19, 3);
 }
 .active{
-    background-color: rgba(138, 18, 18, 0.801);
+    background-color: rgba(26, 18, 138, 0.801);
 }
 main{
     width: 100%;
     height:600px;
+  
 }
 .bg-slide-1{
+    margin-top:80px;
     width:100%;
     height:600px;
     background-image: url(../images/slide-1-mp.jpg);
@@ -134,8 +141,8 @@ main{
 }
 .about{
     width: 100%;
-    height: auto;
-    margin-top:40px;
+    height: 450px;
+    margin-top:60px;
 }
 .about-container{
     width: 80%;
@@ -179,4 +186,68 @@ main{
     color: #23242a;
     padding-bottom: 10px;
     display: block;
+}
+.brand{
+    width:100%;
+    padding-top:90px;
+}
+.brand-container{
+   padding-left: 100px;
+    border-top:6px solid red;
+}
+.brand-title-page h2{
+   font-size: 50px;
+   font-family: 'Roboto', sans-serif;
+}
+.brand-all-box{
+    width: 100%;
+    
+    background-color: rgb(245, 240, 240);
+}
+.brand-box{
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    float: left;
+    border: 4px solid rgb(238, 228, 228);
+    margin: 40px;
+}
+.brand-box-padding{
+padding-left:50px ;
+height: 1000px;
+
+}
+.brand-box-pl{
+text-align: center;
+}
+.brand-box-pl img{
+    padding-top:20px;
+}
+
+.red{
+    color: red;
+}
+.brand-btn{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.brand-btn-p{
+    width: 145px;
+    height: 54px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(91, 222, 245);
+    border:4px solid white;
+}
+.brand-btn-p:hover{
+    background-color: rgb(22, 216, 223);
+    color:black;
+}
+.special{
+    width: 100%;
+    height: 300px;  
+}
+.special h1{
+    text-align: center;
+    padding-top:200px;
 }
