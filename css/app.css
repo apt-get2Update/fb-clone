@@ -62,7 +62,7 @@ main{
 .bg-slide-1{
     width:100%;
     height:600px;
-    background-image: url(../images/slide1.jpg);
+    background-image: url(../images/slide-1-mp.jpg);
     background-repeat: no-repeat;
     background-size:100% 80%;
 }
@@ -82,7 +82,7 @@ main{
 }
 .carousel{
     width: 100%;
-    height:80%;
+    height:600px;
 }
 
 .bg-slide-1-text{
@@ -131,4 +131,52 @@ main{
 .bg-slide3-text{
     padding-left:932px;
     padding-top: 284px;
+}
+.about{
+    width: 100%;
+    height: auto;
+    margin-top:40px;
+}
+.about-container{
+    width: 80%;
+    padding-left: 170px;
+}
+
+.ab-row-1{
+    width:40%;
+    float: left;
+}
+.ab-row-1 img{
+    width:300px;
+    height:350px;
+}
+.ab-row-2{
+    width: 50%;
+    float: left;
+}
+.ab-text-box{
+    padding: 0;
+    margin: 0;  
+    text-align: right;
+}
+.ab-text-box h3{
+    font-weight: bold;
+    font-size: 30px;
+    color: #888687;
+    line-height: 10px;
+    padding-bottom: 4px;
+    display: block;
+}
+.ab-text-box p{
+    line-height:1.80857;
+    font-size: 17px;
+    color: #23242a;
+}
+.ab-text-box span{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 58px;
+    color: #23242a;
+    padding-bottom: 10px;
+    display: block;
 }
