@@ -21,16 +21,36 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
     border: 2px solid #1c2240;
-    background:radial-gradient(#fff,#ffd6d6);;
-    border-radius: 25px;
+    background:linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef);
+     border-radius: 20px 0 20px 0;
     padding:5px 16px;
 }
-nav ul li a{
-
+nav ul li:hover{
+    background:radial-gradient(#fff,#ffd6d6);
 }
 a{
     text-decoration: none;
-    color: #555;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: 'Krona One', sans-serif;
+    
+}
+a:hover{
+    color: black;
+}
+.active{
+    color: black;
+    border-radius: 20px 0 20px 0;
+    background-image:url(../images/btn.jpeg);
+    background-position:center;
+
+}
+.active a{
+    color: rgb(253, 251, 251);
+}
+.active a:hover{
+    color: black;
 }
 p{
     color:#555;
