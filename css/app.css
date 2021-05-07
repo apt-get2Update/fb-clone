@@ -405,3 +405,28 @@ text-align: center;
     width: 100%;
     height: 500px;
 }
+.contact-title{
+    padding-left:100px;
+    padding-top: 30px;
+}
+.ct-p{
+    width: 400px;
+    height: 30px;
+    margin: 30px;
+}
+.cphno-p{
+    width:810px;
+    height: 30px;
+    margin: 30px;
+}
+.txt-w-h{
+    width: 810px;
+    height:auto;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.c-btn{
+    margin-top: 30px;
+    margin-left: 400px;
+    padding:7px 16px;
+}
