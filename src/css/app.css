@@ -215,6 +215,7 @@ main{
     float: left;
     border: 4px solid rgb(238, 228, 228);
     margin: 40px;
+    
 }
 .brand-box-padding{
 padding-left:50px ;
@@ -243,6 +244,7 @@ text-align: center;
     font-family: 'Roboto', sans-serif;
     background:radial-gradient(rgb(241, 239, 247),#ffd6d6);
     border:4px solid white;
+
 }
 .brand-btn-p:hover{
     background-color: rgb(22, 216, 223);
@@ -297,7 +299,10 @@ text-align: center;
 }
 
 /*login from css*/
-
+.log-in{
+    width: 100%;
+    height: 700px;
+}
 .hero{
     height: 700PX;
     width: 100%;
@@ -395,4 +400,8 @@ text-align: center;
 }
 #register{
     left: 450px;
+}
+.contact-us{
+    width: 100%;
+    height: 500px;
 }
