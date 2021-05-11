@@ -663,4 +663,15 @@ footer{
         height:450px;
         margin-bottom:20px;
     }
+
+    .form-box{
+        width: 80%;
+        height: 480px;
+        position: relative;
+        margin: 6% auto;
+        background-color: #fff;
+        padding: 5px;
+        overflow: hidden;   
+        border: 10px solid #ff105f;
+    }
 }
