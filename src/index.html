@@ -23,8 +23,8 @@
                     <li class="active li"><a href="#">Home</a></li>
                     <li class="li"><a href="#about">About</a></li>
                     <li class="li"><a href="#brand">Brand</a></li>
-                    <li class="li"><a href="#">Specials</a></li>
-                    <li class="li"><a href="#">Contact</a></li>
+                    <li class="li"><a href="#log-click">Log in</a></li>
+                    <li class="li"><a href="#c-click">Contact</a></li>
                 </ul>
         </nav>
         <div class="row">
@@ -217,7 +217,7 @@
         special end-layer-->
 
         <!--login from-->
-        <div class="log-in">
+        <div class="log-in" id="log-click">
         <div class="hero">
           <div class="form-box">
             <div class="button-box">
@@ -249,32 +249,45 @@
        </div>
         <!--login from-->
        
-        <!--contact us
+        <!--contact us   contact us end-->
           <div class="contact-us">
-              <div class="contact-title">
+            <div class="contact-container">
+              <div class="contact-title" id="c-click">
                 <h1>Contact Us</h1>
               </div>
               <div class="contact-shadow-brd">
 
               <div class="contact-box">
-                  <input type="text" placeholder="your name" class="contact-text ct-p" required>
-                  <input type="email" placeholder="email" class="contact-email ct-p" required> <br>
-                  <input type="tel" placeholder="phone" class="conatct-phno cphno-p" maxlength="10"> <br>
-                  <textarea name="message" id="taj" cols="30" rows="10" placeholder="message" class="txt-w-h"> 
-                  
-                  </textarea> <br>
-                 <div class="c-btn">
+                   <form class="main-form">
+                    <div class="c-name cp">
+                      <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="c-email cp">
+                      <input type="email" name="email" id="taj" placeholder="Email" required>
+                    </div>
+                    <div class="c-phone cp">
+                      <input type="tel" placeholder="Phone No" maxlength="10">
+                    </div>
+                    <div class="text-area cp">
+                      <textarea name="text" id="taj" placeholder="Message"></textarea>
+                    </div>
+                 
+                  <div class="c-btn">
                     <button class="pushable">
                       <span class="front">
                         Send
                       </span>
                     </button>
                   </div>
+
+                
+                </form>
                     </div>
               </div>
             </div>
+            </div>
           </div>
-        contact us end-->
+       
 
         <footer>
           <div class="ft-container">
