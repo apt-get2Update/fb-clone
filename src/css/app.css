@@ -425,11 +425,11 @@ text-align: center;
     text-shadow: 2px 2px 6px red;
 }
 .cp{
-  padding-left: 40px;
+  padding-left: 25px;
   padding-top: 40px;
 }
 .c-name input{
-    width: 90%;
+    width: 95%;
     height: 30px;
     margin: auto;
     box-shadow: 3px 3px 3px 3px #999;
@@ -437,7 +437,7 @@ text-align: center;
     border-left: 1px solid #999;
 }
 .c-email input{
-    width: 90%;
+    width: 95%;
     height: 30px;
     margin: auto;
     box-shadow: 3px 3px 3px 3px #999;
@@ -445,7 +445,7 @@ text-align: center;
     border-left: 1px solid #999;
 }
 .c-phone input{
-    width:90%;
+    width:95%;
     height: 30px;
     margin: auto;
     box-shadow: 3px 3px 3px 3px #999;
@@ -453,7 +453,7 @@ text-align: center;
     border-left: 1px solid #999;
 }
 textarea{
-    width: 90%;
+    width: 95%;
     height: 80px;
     margin: auto;
     box-shadow: 3px 3px 3px 3px #999;
@@ -467,7 +467,7 @@ textarea{
    border: 1px solid #999;
    margin: auto;
    margin-top:50px;
-   box-shadow: 3px 3px 3px 3px #999;
+   box-shadow:0px 4px 9px 8px #999;
 }
 
 
@@ -663,4 +663,13 @@ footer{
         font-size: 14px;
         text-shadow: 2px 2px 6px #aaa9a9;
        }
+}
+
+@media screen and (max-width: 600px){
+    .contact-shadow-brd{
+        background-color: #ffad06;
+    }
+    .cp{
+        padding-right: 20px;
+    }
 }
