@@ -9,7 +9,6 @@ body{
 .container{
     width:100%;
     height: 500px;
-    background-color: #e2e3ee;
     background-image: url(../images/hbg.webp);
     background-repeat: no-repeat;
     background-size: 100% 500px;
@@ -49,8 +48,6 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
     border: 2px solid white;
-   
-   
     padding:5px 16px;
 }
 nav ul li:hover{
@@ -587,10 +584,11 @@ footer{
 @media screen and (max-width: 600px) {
     .navbar{
       width: 100%;  
-      background-color:#43a4ff;
+      background-color:#75c6fe;
       padding: 0;
-      background-image: url(../images/main.jpg);
+      background-image: url(../images/ni.webp);
       background-repeat:no-repeat;
+      background-size: 100% 195px;
      }
      .nav{
          margin-right: 0;
@@ -610,14 +608,14 @@ footer{
       padding-left:0;
       padding-right:0;
       }
-      .logo img{
-          width:200px;
-          border: 2px solid #fff;
-          background-color:#43a4ff;
-            background-image: url(../images/main.jpg);
-      background-repeat:no-repeat;
+    .logo{
+        padding-left: 30px;
+    }
+    .logo h1{
+        box-shadow:5px 4px 8px 5px rgb(10, 60, 174);
+    }
+    
 
-      }
     }
     @media screen and (max-width: 600px){
         .bg-slide-1{
@@ -696,7 +694,7 @@ footer{
 
 @media screen and (max-width: 600px) {
     .container{
-        width:50%;
-        height: 200px;
+        background-size: 100% 200px;
+        height:190px;
     }
 }
