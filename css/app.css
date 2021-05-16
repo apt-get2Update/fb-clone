@@ -6,7 +6,31 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    width:100%;
+    height: 500px;
+    background-color: #e2e3ee;
+    background-image: url(../images/hbg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    margin-bottom: 30px;
+}
 
+.logo h1{
+     color: white;
+     border:1px solid white;
+     border-right: 1px solid rgb(255, 244, 92);
+     border-top: 1px solid rgb(255, 244, 92);
+     padding: 5px;
+     font-family: 'Reggae One', cursive;
+     font-family: 'Ubuntu', sans-serif;
+     text-shadow: 2px 2px 2px black;
+     box-shadow:5px 4px 8px 5px rgb(67, 180, 233);
+}
+.logo h1:hover{
+    text-shadow: 2px 2px 2px black;
+    box-shadow:5px 4px 8px 5px rgb(218, 11, 11);
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -24,30 +48,30 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin-right: 20px;
-    border: 2px solid #1c2240;
-    background:linear-gradient(#e5f4f9, #b2e0ef, #7fcce5, #0089b7, #0099CC, #b2e0ef);
-     border-radius: 20px 0 20px 0;
+    border: 2px solid white;
+   
+   
     padding:5px 16px;
 }
 nav ul li:hover{
-    background:radial-gradient(#fff,#ffd6d6);
+    background:radial-gradient(#fff,#a5ebf0);
+    box-shadow:5px 4px 8px 5px rgb(126, 243, 252);
+    border: 2px solid black;
 }
 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bolder;
     font-family: 'Krona One', sans-serif;
-    
+   
 }
 a:hover{
     color: black;
+    padding: 10px;  
 }
 .active{
     color: black;
-    border-radius: 20px 0 20px 0;
-    background-image:url(../images/btn.jpeg);
-    background-position:center;
 
 }
 .active a{
@@ -55,16 +79,12 @@ a:hover{
 }
 .active a:hover{
     color: black;
+
 }
 p{
     color:#555;
 }
-.container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
+
 main{
     width: 100%;
     height:600px;
