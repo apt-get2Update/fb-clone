@@ -696,11 +696,7 @@ footer{
 
 @media screen and (max-width: 600px) {
     .container{
-        width:none;
-        height:none;
-        background-image:none;
-        background-repeat: no-repeat;
-        background-size:none;
-        margin-bottom:none;
+        width:50%;
+        height: 200px;
     }
 }
