@@ -3,6 +3,8 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+
+/*
 .contact-info{
     position: fixed;
     top: 40%;
@@ -52,7 +54,7 @@ body{
 .option:hover .info-text{
     left: 60px;
 }
-
+*/
 .container{
     width:100%;
     height: 500px;
@@ -62,17 +64,30 @@ body{
     margin-bottom: 30px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  } 
+  .logo a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 40px;
+      font-family: sans-serif;
+      text-shadow: 2px 2px 6px rgb(212, 38, 247);
+  }
   nav{
-    position: fixed;
-    z-index: 1;
     display: flex;
+    position: fixed;
     height: 80px;
     width: 100%;
-    background: #3836367d;
+    background: #1b1b1b7c;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
+    z-index: 1;
   }
   nav .logo{
     color: #fff;
@@ -108,7 +123,7 @@ body{
     cursor: pointer;
     display: none;
   }
-  nav input[type="checkbox"]{
+  input[type="checkbox"]{
     display: none;
   }
   @media (max-width: 1000px){
@@ -120,6 +135,10 @@ body{
     nav .menu-btn i{
       display: block;
     }
+    nav .menu-btn i:hover{
+        color: #ff105f;
+        text-shadow: 2px 5px 2px rgb(255, 255, 255);
+    }
     #click:checked ~ .menu-btn i:before{
       content: "\f00d";
     }
@@ -127,20 +146,20 @@ body{
       position: fixed;
       top: 80px;
       left: -100%;
-      background: #111;
-      height: 100vh;
+      background: #111111c4;
+      height: 65vh;
       width: 100%;
       text-align: center;
       display: block;
       transition: all 0.3s ease;
-      z-index: 1;
     }
     #click:checked ~ ul{
       left: 0;
+      z-index: 1;
     }
     nav ul li{
       width: 100%;
-      margin: 40px 0;
+      margin: 15px;
     }
     nav ul li a{
       width: 100%;
@@ -157,255 +176,16 @@ body{
       background: none;
       color: cyan;
     }
-  }
-  .content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: -1;
+    nav ul li a:hover{
+        padding: 10px;
+    }
   }
 
+  
 main{
     width: 100%;
     height:600px;
   
-}
-
-
-
-
-.bg-slide-1{
-   
-    width:100%;
-    height:600px;
-    background-image: url(../images/slide-1-mp.jpg);
-    background-repeat: no-repeat;
-    background-size:100% 80%;
-}
-.bg-slide-2{
-  
-    width:100%;
-    height:600px;
-    background-image: url(../images/s2.jpg);
-    background-repeat: no-repeat;
-    background-size:100% 80%;
-}
-.bg-slide-3{
-   
-    width:100%;
-    height:600px;
-    background-image: url(../images/s5.jpg);
-    background-repeat: no-repeat;
-    background-size:100% 80%;
-}
-.carousel{
-    width: 100%;
-    height:600px;
-}
-
-.bg-slide-1-text{
-    padding-left:170px;
-    padding-top:70px;
-}
-.bg-slide-1-text h1,p{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-}
-.bg-slide-1-text h1{
-    font-size: 45px;
-}
-.bg-slide-1-text p{
-    font-size: 20px;
-}
-.slide-btn{
-    width:166px;
-    display: inline-block;
-    padding:10px 0;
-    border: 3px solid white;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 30px;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-
-    color: white;
-}  
-.slide-btn:hover{
-    background-color: rgb(160, 13, 13);
-}
-.slide-icon-pt{
-    padding-top:50px;
-}
-.icon-size{
-    font-size: 30px;
-
-}
-.bg-slide2-text{
-    padding-left:349px;
-    padding-top: 229px;
-}
-.bg-slide3-text{
-    padding-left:932px;
-    padding-top: 284px;
-}
-.about{
-    width: 100%;
-    height: 450px;
-    margin-top:60px;
-    
-}
-.about-container{
-    width: 80%;
-    padding-left: 170px;
-}
-
-.ab-row-1{
-    width:40%;
-    float: left;
-}
-.ab-row-1 img{
-    width:300px;
-    height:350px;
-}
-.ab-row-2{
-    width: 50%;
-    float: left;
-}
-.ab-text-box{
-    padding: 0;
-    margin: 0;  
-    text-align: right;
-}
-.ab-text-box h3{
-    font-weight: bold;
-    font-size: 30px;
-    color: #888687;
-    line-height: 10px;
-    padding-bottom: 4px;
-    display: block;
-}
-.ab-text-box p{
-    line-height:1.80857;
-    font-size: 17px;
-    color: #23242a;
-}
-.ab-text-box span{
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 58px;
-    color: #23242a;
-    padding-bottom: 10px;
-    display: block;
-}
-.brand{
-    width:100%;
-    height:1200px;
-    padding-top:90px;
-}
-.brand-container{
-   padding-left: 100px;
-    border-top:6px solid red;
-}
-.brand-title-page h2{
-   font-size: 50px;
-   font-family: 'Roboto', sans-serif;
-}
-.brand-all-box{
-    width: 100%;
-    background-color: rgb(245, 240, 240);
-}
-.brand-box{
-    width: 25%;
-    height: 400px;
-    background-color: white;
-    float: left;
-    border: 4px solid rgb(238, 228, 228);
-    margin: 40px;
-    
-}
-.brand-box-padding{
-padding-left:50px ;
-height: 1000px;
-
-}
-.brand-box-pl{
-text-align: center;
-}
-.brand-box-pl img{
-    padding-top:20px;
-}
-
-.red{
-    color: red;
-}
-.brand-btn{
-    text-align: center;
-    padding-bottom: 40px;
-}
-.brand-btn-p{
-    width: 145px;
-    height: 54px;
-    font-size: 25px;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
-    background:radial-gradient(rgb(241, 239, 247),#ffd6d6);
-    border:4px solid white;
-
-}
-.brand-btn-p:hover{
-    background-color: rgb(22, 216, 223);
-    color:black;
-}
-.special{
-    width: 100%;
-}
-.client{
-    width: 100%;
-    height: 800px;
-}
-.special h1{
-    text-align: center;
-    padding-top:200px;
-}
-.spl-slide-bg-1{
-    background-image: url(../images/spl\ 1.jpg);
-    width:100%;
-    height:700px;
-    background-repeat: no-repeat;
-    background-size:100% 80%;
-}
-.spl-slide-bg-2{
-    background-image: url(../images/spl2.jpg);
-    width:100%;
-    height:700px;
-    background-repeat: no-repeat;
-    background-size:100% 80%;
-}
-.clients-1 h1{
-    text-align:start;
-    padding-left:85px;
-    padding-top: 2px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-}
-.clients-text-1{
-    padding-left: 262px;
-    padding-top: 3px;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-}
-.clients-text-2{
-    padding-left: 212px;
-    padding-top: 109px;
-    font-size: 22px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
 }
 
 /*login from css*/
@@ -669,40 +449,51 @@ footer{
     font-size:15px;
     text-align: center;
 }
-
-
-    
-    @media screen and (max-width: 600px){
-        .bg-slide-1{
+.up-btn{
+    position: fixed;
+    top: 60%;
+    z-index: 99999;
+    left: 0;
    
-            width:100%;
-            height:400px;
-            background-image: url(../images/slide-1-mp.jpg);
-            background-repeat: no-repeat;
-            background-size:100% 60%;
-        }
-        .bg-slide-2{
-          
-            width:100%;
-            height:400px;
-            background-image: url(../images/s2.jpg);
-            background-repeat: no-repeat;
-            background-size:100% 60%;
-        }
-        .bg-slide-3{
-           
-            width:100%;
-            height:400px;
-            background-image: url(../images/s5.jpg);
-            background-repeat: no-repeat;
-            background-size:100% 60%;
-        }
-        .carousel {
-        
-            width: 100%;
-            height:300px;
-        }
-    }
+}
+.option-btn{
+    cursor: pointer;
+    position: relative;
+}
+.option-btn i{
+    display: block;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: white;
+    color: rgb(5, 5, 5);
+    font-size: 20px;
+    transition: 0.6s;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.text-btn{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(  #ef32d9a4, #89fffd);
+    top: 0;
+    z-index: -1;
+    left: -140px;
+    
+    line-height: 40px;
+    transition: 0.6s;text-align: center;
+
+}
+.text-btn a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    text-shadow: 2px 2px 2px white;
+}
+.option-btn:hover .text-btn{
+    left: 40px;
+}
 @media screen and (max-width: 600px){
     .hero{
         height:600px;
@@ -741,7 +532,7 @@ footer{
 
 @media screen and (max-width: 600px) {
     .container{
-        background-size: 100% 200px;
-        height:190px;
+        background-size: 100% 250px;
+        height:230px;
     }
 }
