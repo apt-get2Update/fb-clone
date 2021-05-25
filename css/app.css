@@ -11,8 +11,34 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 500px;
     margin-bottom: 30px;
+    -webkit-animation:zoomin 1s linear 1;
+            animation:zoomin 1s linear 1;
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+    visibility: hidden;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
 }
-
+@-webkit-keyframes zoomin{
+  0%{
+    transform:scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform:scale(1);
+    visibility: visible;
+  }
+}
+@keyframes zoomin{
+  0%{
+    transform:scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform:scale(1);
+    visibility: visible;
+  }
+}
 *{
     margin: 0;
     padding: 0;
@@ -438,11 +464,40 @@ footer{
     text-align: center;
 }
 .up-btn{
+-webkit-animation:moveright 1s linear 1;
+        animation:moveright 1s linear 1;
+-webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+visibility: hidden;
+-webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+}
+@-webkit-keyframes moveright{
+0%{
+transform: translatex(-100px);
+visibility: visible;
+}
+100%{
+transform: translatex(0);
+visibility: visible;
+}
+}
+@keyframes moveright{
+0%{
+transform: translatex(-100px);
+visibility: visible;
+}
+100%{
+transform: translatex(0);
+visibility: visible;
+}
+}
+.up-btn{
     position: fixed;
     top: 60%;
     z-index: 99999;
     left: 0;
-   
+    
 }
 .option-btn{
     cursor: pointer;
