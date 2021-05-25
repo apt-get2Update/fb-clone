@@ -11,8 +11,21 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 500px;
     margin-bottom: 30px;
+    animation:zoomin 1s linear 1;
+    animation-delay: 0.2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
 }
-
+@keyframes zoomin{
+  0%{
+    transform:scale(0.5);
+    visibility: visible;
+  }
+  100%{
+    transform:scale(1);
+    visibility: visible;
+  }
+}
 *{
     margin: 0;
     padding: 0;
@@ -422,11 +435,27 @@ footer{
     text-align: center;
 }
 .up-btn{
+animation:moveright 1s linear 1;
+animation-delay: 0.5s;
+visibility: hidden;
+animation-fill-mode: forwards;
+}
+@keyframes moveright{
+0%{
+transform: translatex(-100px);
+visibility: visible;
+}
+100%{
+transform: translatex(0);
+visibility: visible;
+}
+}
+.up-btn{
     position: fixed;
     top: 60%;
     z-index: 99999;
     left: 0;
-   
+    
 }
 .option-btn{
     cursor: pointer;
