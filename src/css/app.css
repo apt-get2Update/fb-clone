@@ -25,6 +25,24 @@ body{
       font-size: 40px;
       font-family: sans-serif;
       text-shadow: 2px 2px 6px rgb(212, 38, 247);
+      
+  }
+  .logo{
+    cursor: pointer;
+      animation:movedown 1s linear 1;
+      animation-delay: 1s;
+      visibility: hidden;
+      animation-fill-mode: forwards;
+  }
+  @keyframes movedown{
+    0%{
+      transform: translate(-100px);
+      visibility: visible;
+    }
+    100%{
+      transform: translate(0);
+      visibility: visible;
+    }
   }
   nav{
     display: flex;
@@ -47,6 +65,10 @@ body{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    animation:movedown 1s linear 1;
+      animation-delay: 2s;
+      visibility: hidden;
+      animation-fill-mode: forwards;
   }
   nav ul li{
     margin: 0 5px;
