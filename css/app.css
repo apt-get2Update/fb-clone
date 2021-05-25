@@ -25,6 +25,37 @@ body{
       font-size: 40px;
       font-family: sans-serif;
       text-shadow: 2px 2px 6px rgb(212, 38, 247);
+      
+  }
+  .logo{
+    cursor: pointer;
+      -webkit-animation:movedown 1s linear 1;
+              animation:movedown 1s linear 1;
+      -webkit-animation-delay: 1s;
+              animation-delay: 1s;
+      visibility: hidden;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
+  }
+  @-webkit-keyframes movedown{
+    0%{
+      transform: translate(-100px);
+      visibility: visible;
+    }
+    100%{
+      transform: translate(0);
+      visibility: visible;
+    }
+  }
+  @keyframes movedown{
+    0%{
+      transform: translate(-100px);
+      visibility: visible;
+    }
+    100%{
+      transform: translate(0);
+      visibility: visible;
+    }
   }
   nav{
     display: flex;
@@ -47,6 +78,13 @@ body{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    -webkit-animation:movedown 1s linear 1;
+            animation:movedown 1s linear 1;
+      -webkit-animation-delay: 2s;
+              animation-delay: 2s;
+      visibility: hidden;
+      -webkit-animation-fill-mode: forwards;
+              animation-fill-mode: forwards;
   }
   nav ul li{
     margin: 0 5px;
