@@ -36,11 +36,11 @@ body{
   }
   @keyframes movedown{
     0%{
-      transform: translate(-100px);
+      transform: translateY(-100px);
       visibility: visible;
     }
     100%{
-      transform: translate(0);
+      transform: translateY(0);
       visibility: visible;
     }
   }
