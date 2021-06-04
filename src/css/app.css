@@ -2,8 +2,73 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: rgb(240, 239, 239);
 }
 
+.cards {
+  display: flex;
+
+  /* Put a card in the next row when previous cards take all width */
+  flex-wrap: wrap;
+
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.card-top{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(212, 212, 212);
+}
+
+.cards__item {
+  /* There will be 4 cards per row */
+  flex-basis: 25%;
+
+  width: 400px;
+  height: auto;
+  border-radius:5px;
+  margin: 40px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px 3px grey;
+}
+.content{
+  padding-top: 10px;
+}
+.card-round
+{
+  width: 50px;
+  height: 50px;
+  border:1px solid grey;
+  border-radius: 50%;
+  margin-top: -22px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.c-h>a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-family: sans-serif;
+  padding-left: 17px;
+
+}
+
+ul>li{
+  list-style-type: none;
+}
+ul>li>a{
+  text-decoration: none;
+  line-height: 22px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 14px;
+}
+.c-s{
+  font-weight: bolder;
+  padding-right:3px;
+}
+/*
 .container{
     width:100%;
     height: 500px;
@@ -173,7 +238,7 @@ main{
   
 }
 
-/*login from css*/
+
 .log-in{
     width: 100%;
     height: 700px;
@@ -537,3 +602,5 @@ visibility: visible;
         height:230px;
     }
 }
+
+*/
